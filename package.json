@@ -1,0 +1,15 @@
+{
+  "name": "trabajos-front-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "comando1":"sass -w ./SCSS/estilos.scss ./CSS/estilos.css",
+    "pugcmd":"pug -w ./pug/index.pug -o ./html -P",
+    "pug": "pug -w ./Source/pug/Index.pug -o ./Source/html -P"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

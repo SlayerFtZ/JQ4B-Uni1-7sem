@@ -1,0 +1,17 @@
+docype html
+html
+    head
+        title Ejemplo pug
+    boby 
+        h1 encabezado 
+        p.alert.
+            hola 
+            mundo
+            como 
+            estas
+        ol
+            each item in ["opcion 1","opcion 2","opcion n"]
+                li #{item} 
+                
+        include condiciones
+        include Tabla
